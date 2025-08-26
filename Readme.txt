@@ -1,0 +1,1 @@
+Spring Boot Applications implementing Spring JPA, Security and Spring MVC.
