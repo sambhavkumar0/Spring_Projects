@@ -1,0 +1,17 @@
+package com.cts;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Student student = (Student) context.getBean("studentbean2");
+
+        System.out.println(student);
+        System.out.println("Student Id : " + student.getStudentId());
+        System.out.println("Student Name : " + student.getStudentName());
+        System.out.println("Student Course : " + student.getCourse());
+        System.out.println("Course Fees : " + student.getCourseFees());
+    }
+}

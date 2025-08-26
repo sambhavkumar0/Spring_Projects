@@ -1,0 +1,11 @@
+package com.controller;
+
+import com.bean.ATMCard;
+
+public class ATMController {
+	
+	public void issueATMCardToAccount(int accountNumber, ATMCard atmCardObjet) {
+			//fill code
+	}
+
+}

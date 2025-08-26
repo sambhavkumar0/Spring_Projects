@@ -1,0 +1,27 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="studentbean1" class="com.cts.Student">
+        <property name="studentId" value="10000"/>
+        <property name="studentName" value="Rohit"/>
+        <property name="course" value="Java FullStack"/>
+        <property name="courseFees" value="50000.45"/>
+    </bean>
+
+    <bean id="studentbean2" class="com.cts.Student">
+        <property name="studentId" value="2000"/>
+        <property name="studentName" value="Swathi"/>
+        <property name="course" value="DotNet FullStack"/>
+        <property name="courseFees" value="760000.45"/>
+    </bean>
+
+    <bean id="studentbean3" class="com.cts.Student">
+        <property name="studentId" value="3000"/>
+        <property name="studentName" value="Divya"/>
+        <property name="course" value="Spring"/>
+        <property name="courseFees" value="60000.45"/>
+    </bean>
+</beans>

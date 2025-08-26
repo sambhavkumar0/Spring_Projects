@@ -1,0 +1,36 @@
+package com.crs.controller;
+
+import java.time.LocalDate;
+import java.util.List;
+import org.springframework.http.ResponseEntity;
+
+import com.crs.entity.Enrollment;
+import com.crs.entity.EnrollmentId;
+import com.crs.exception.InvalidEntityException;
+import com.crs.service.EnrollmentService;
+
+//Provide necessary Annotation
+public class EnrollmentController {
+	
+    //Provide necessary Annotation
+    private EnrollmentService enrollmentService;
+
+    //Provide necessary Annotation for the below methods and fill the code
+    
+    public ResponseEntity<Enrollment> addEnrollment(Enrollment enrollment, int studentId, int courseId) throws InvalidEntityException {
+        return null;
+    }
+
+    public ResponseEntity<Enrollment> updateStudentGrade(int studentId, int courseId, double grade) throws InvalidEntityException {
+        return null;
+    }
+
+    public ResponseEntity<List<Enrollment>> viewEnrollmentByDate(LocalDate enrollmentDate) {
+        return null;
+    }
+
+    public List<Enrollment> viewEnrollmentsByInstructor(String instructor) {
+        return null;
+    }
+
+}

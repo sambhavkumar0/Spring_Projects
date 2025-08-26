@@ -1,0 +1,9 @@
+package com.crs.repository;
+
+
+//Provide necessary annotation
+public interface CourseRepository {  
+    
+	// Provide necessary custom query method to view most enrolled course
+
+}

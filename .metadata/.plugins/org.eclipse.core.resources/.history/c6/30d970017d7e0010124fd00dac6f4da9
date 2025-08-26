@@ -1,0 +1,19 @@
+package com.crs.controller;
+
+import org.springframework.http.ResponseEntity;
+
+import com.crs.entity.Student;
+import com.crs.service.StudentService;
+
+//Provide necessary Annotation
+public class StudentController {
+    
+    //Provide necessary Annotation
+    private StudentService studentService;
+
+    //Provide necessary Annotation for the below methods and fill the code
+    public ResponseEntity<Student> addStudent(Student student) {
+        return null;
+    }
+
+}

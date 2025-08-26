@@ -1,0 +1,8 @@
+package com.crs.repository;
+
+//Provide necessary annotation
+public interface EnrollmentRepository 
+{
+	
+// Provide necessary methods to view enrollments by enrollment date and instructor
+}

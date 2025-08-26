@@ -1,0 +1,26 @@
+package com.config;
+
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class AuthorizationServer {
+
+    @Value("${security.clientid}")
+    private String clientId;
+
+    @Value("${security.pwd}")
+    private String pwd;
+
+    @Value("${security.redirecturl}")
+    private String redirectUrl;
+
+    @Value("${security.scope}")
+    private String scope;
+
+    @Value("${security.access-token-validity-seconds}")
+    private Integer accessTokenValiditySeconds;
+
+    @Value("${security.refresh-token-validity-seconds}")
+    private Integer refreshTokenValiditySeconds;
+
+}

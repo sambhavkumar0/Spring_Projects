@@ -1,0 +1,19 @@
+package com.crs.service;
+
+import org.springframework.stereotype.Service;
+
+import com.crs.entity.Student;
+import com.crs.repository.StudentRepository;
+
+@Service
+public class StudentService {
+
+	//Provide necessary annotation
+    private StudentRepository studentRepository;
+
+    public Student addStudent(Student student) {
+        //Fill the code
+        return null;
+    }
+
+}

@@ -1,0 +1,24 @@
+package com.crs.controller;
+
+import org.springframework.http.ResponseEntity;
+
+import com.crs.entity.Course;
+import com.crs.service.CourseService;
+
+//Provide necessary Annotation
+public class CourseController {
+    
+    //Provide necessary Annotation
+    private CourseService courseService;
+
+    //Provide necessary Annotation for the below methods and fill the code
+    public ResponseEntity<Course> addCourse(Course course) {
+        return null;
+    }
+
+    public ResponseEntity<Course> viewMostEnrolledCourse() {
+        return null;
+    }
+}
+
+

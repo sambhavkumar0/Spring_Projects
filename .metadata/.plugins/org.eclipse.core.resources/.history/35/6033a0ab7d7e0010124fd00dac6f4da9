@@ -1,0 +1,50 @@
+package com.crs.service;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.crs.entity.Course;
+import com.crs.entity.Enrollment;
+import com.crs.entity.EnrollmentId;
+import com.crs.entity.Student;
+import com.crs.exception.InvalidEntityException;
+import com.crs.repository.CourseRepository;
+import com.crs.repository.EnrollmentRepository;
+import com.crs.repository.StudentRepository;
+
+@Service
+public class EnrollmentService {
+	
+	 	//Provide necessary annotation
+	    private EnrollmentRepository enrollmentRepository;
+
+	    //Provide necessary annotation
+	    private StudentRepository studentRepository;
+
+	    //Provide necessary annotation
+	    private CourseRepository courseRepository;
+
+	    public Enrollment addEnrollment(Enrollment enrollment, int studentId, int courseId) throws InvalidEntityException {
+	        //Fill the code
+	        return null;
+	    }
+
+	    public Enrollment updateStudentGrade(EnrollmentId enrollmentId, double grade) throws InvalidEntityException {
+	        //Fill the code
+	        return null;
+	    }
+
+	    public List<Enrollment> viewEnrollmentByDate(LocalDate enrollmentDate) {
+	        //Fill the code
+	        return null;
+	    }
+	    
+	    public List<Enrollment> viewEnrollmentsByInstructor(String instructorName) {
+	        //Fill the code
+	        return null;
+	    }
+}

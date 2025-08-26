@@ -1,0 +1,30 @@
+package com.service;
+
+import com.entity.Inventory;
+import com.entity.Orders;
+import com.entity.Product;
+import com.repository.InventoryRepository;
+import com.repository.OrderRepository;
+import com.repository.ProductRepository;
+import org.springframework.stereotype.Service;
+
+@Service
+public class OrderService {
+
+	  // Provide necessary Annotation
+	private OrderRepository orderRepository;
+
+	  // Provide necessary Annotation
+	private InventoryRepository inventoryRepository;
+
+	  // Provide necessary Annotation
+	private ProductRepository productRepository;
+
+	  // Provide necessary Annotation
+	public String placeOrder(Long productId, int quantity) {
+		//Fill the code
+
+
+		 return null;
+	}
+}

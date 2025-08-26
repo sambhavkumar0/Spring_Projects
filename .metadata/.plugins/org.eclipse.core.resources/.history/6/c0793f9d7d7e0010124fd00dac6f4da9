@@ -1,0 +1,23 @@
+package com.crs.service;
+
+import org.springframework.stereotype.Service;
+
+import com.crs.entity.Course;
+import com.crs.repository.CourseRepository;
+
+@Service
+public class CourseService {
+	
+    //Provide necessary annotation
+    private CourseRepository courseRepository;
+
+    public Course addCourse(Course course) {
+        //Fill the code
+        return null;
+    }
+
+    public Course viewMostEnrolledCourse() {
+        //Fill the code
+        return null;
+    }
+}

@@ -1,0 +1,25 @@
+package com.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Orders {
+    @Id
+    private Long id;
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    private Product productObj;
+    private int quantity;
+    private String status;
+    // Constructors, Getters, and Setters
+    public Orders() {}
+    public Orders(Long id, Product productObj, int quantity, String status) { this.id = id; this.productObj = productObj; this.quantity = quantity; this.status = status; }
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public Product getProductObj() { return productObj; }
+    public void setProductObj(Product productObj) { this.productObj = productObj; }
+    public int getQuantity() { return quantity; }
+    public void setQuantity(int quantity) { this.quantity = quantity; }
+    public String getStatus() { return status; }
+    public void setStatus(String status) {this.status=status;}
+}

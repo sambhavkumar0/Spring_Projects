@@ -1,0 +1,7 @@
+package com.crs.repository;
+
+//Provide necessary annotation
+public interface StudentRepository 
+{
+	
+}

@@ -1,0 +1,33 @@
+package com.controller;
+
+import java.util.List;
+
+import com.bean.Account;
+import com.bean.CurrentAccount;
+import com.bean.SavingsAccount;
+import com.dao.AccountDAO;
+
+public class AccountController {
+	
+
+	AccountDAO accountDao;
+	
+	
+	public void openAccount(CurrentAccount account) {
+		
+		//fill code
+	}
+	
+
+	public void openAccount(SavingsAccount account) {
+		
+		//fill code
+    	
+	}
+	
+
+	public List<Account> retrieveAccountBasedOnCardType(String cardType){
+		//fill code
+		return null;
+	}
+}
